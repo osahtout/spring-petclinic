@@ -47,6 +47,5 @@ pipeline {
                         subject: 'sage4se pipeline failure', 
                         to: 'oshatout@hotmail.com')
         }
-        
+
     }
-}
