@@ -2,7 +2,9 @@ pipeline {
     agent any
     stages {
         stage('version checks'){
+            steps {
             sh 'mvn -v'
+             }
         }
         stage('Build') {
             steps {
